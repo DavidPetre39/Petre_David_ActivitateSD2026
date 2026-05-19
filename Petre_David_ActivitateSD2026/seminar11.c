@@ -1,7 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h
+#include <string.h>
+
+
 struct StructuraMasina {
 	int id;
 	int nrUsi;
@@ -45,13 +47,12 @@ void afisareMasina(Masina masina) {
 
 
 typedef struct Nod Nod;
+typedef struct NodListaSecundara NodListaSecundara;
 struct Nod {
 	NodListaSecundara* vecini;
 	Nod* next;
 	Masina info;
 };
-
-typedef struct NodListaSecundara NodListaSecundara;
 struct NodListaSecundara {
 	struct Nod* info;
 	NodListaSecundara* next;
