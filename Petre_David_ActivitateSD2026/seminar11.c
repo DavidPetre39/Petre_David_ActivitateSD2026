@@ -44,7 +44,7 @@ void afisareMasina(Masina masina) {
 	printf("Nume sofer: %s\n", masina.numeSofer);
 	printf("Serie: %c\n\n", masina.serie);
 }
-
+//
 
 typedef struct Nod Nod;
 typedef struct NodListaSecundara NodListaSecundara;
